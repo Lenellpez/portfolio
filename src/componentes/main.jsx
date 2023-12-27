@@ -4,17 +4,18 @@ import Hero from "./hero"
 import Project from "./project"
 import Testimonial from "./testimonial"
 import Footer from "./footer"
+import Probando from "./probando"
 
 const main = () =>{
 
     return(
-        <div className="bg-indigo-600">
+        <div className="bg-gradient-to-r from-black via-blue-500 to-blue-800 min-h-screen font-body1 text-white m-0">
         <Nav/>
         <Hero/>
         <Project/>
+        <Probando/>
         <Testimonial/>
         <Footer/>
-
         </div>
     )
 }
