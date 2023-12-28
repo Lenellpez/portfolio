@@ -4,7 +4,6 @@ import Hero from "./hero"
 import Project from "./project"
 import Testimonial from "./testimonial"
 import Footer from "./footer"
-import Probando from "./probando"
 
 const main = () =>{
 
@@ -13,10 +12,10 @@ const main = () =>{
         <Nav/>
         <Hero/>
         <Project/>
-        <Probando/>
         <Testimonial/>
         <Footer/>
-        </div>
+        
+         </div>
     )
 }
 export default main
